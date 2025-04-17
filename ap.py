@@ -8,7 +8,7 @@ import os
 app = Flask(__name__)
 
 # ========== Load Model ========== 
-MODEL_PATH = bert_fraud_detection.pth
+MODEL_PATH = "bert_fraud_detection.pth"
 print(f"Looking for model at: {MODEL_PATH}")
 
 try:
